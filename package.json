@@ -22,6 +22,13 @@
   },
   "homepage": "https://github.com/eove/talk-to-analyzer#readme",
   "dependencies": {
-    "@eove/flow-analyzer-com": "git+https://github.com/eove/flow-analyzer-com#056d7ab"
+    "@eove/flow-analyzer-com": "0.1.1",
+    "commander": "2.19.0",
+    "cross-env": "5.2.0",
+    "debug": "4.1.1",
+    "lodash": "4.17.11",
+    "prettyjson": "1.2.1",
+    "vorpal": "1.12.0",
+    "zerorpc": "0.9.8"
   }
 }
