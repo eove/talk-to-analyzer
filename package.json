@@ -1,0 +1,27 @@
+{
+  "name": "talk-to-analyzer",
+  "version": "0.1.0",
+  "description": "CLI to talk to flow analyzers (pf300, citrex)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eove/talk-to-analyzer.git"
+  },
+  "keywords": [
+    "analyzer",
+    "pf300",
+    "citrex"
+  ],
+  "author": "Peio ROTH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eove/talk-to-analyzer/issues"
+  },
+  "homepage": "https://github.com/eove/talk-to-analyzer#readme",
+  "dependencies": {
+    "@eove/flow-analyzer-com": "git+https://github.com/eove/flow-analyzer-com#056d7ab"
+  }
+}
