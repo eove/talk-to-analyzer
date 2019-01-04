@@ -29,7 +29,7 @@ program
   )
   .option('-x, --exit-on-error', 'exit when error occurs', false)
   .action(options => {
-    const address = options.address;
+    const { portName } = options;
     const logErrorAndExit = makeLogErrorAndMayExit(options.exitOnError);
     try {
       const communicator = createCommunicator(options);
@@ -42,7 +42,7 @@ program
       );
 
       communicator
-        .open(address)
+        .open(portName)
         .then(() => {
           server.start();
         })

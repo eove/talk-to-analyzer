@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/eove/talk-to-analyzer#readme",
   "dependencies": {
-    "@eove/flow-analyzer-com": "0.1.1",
+    "@eove/flow-analyzer-com": "0.1.5",
     "commander": "2.19.0",
     "cross-env": "5.2.0",
     "debug": "4.1.1",
@@ -30,5 +30,9 @@
     "prettyjson": "1.2.1",
     "vorpal": "1.12.0",
     "zerorpc": "0.9.8"
+  },
+  "devDependencies": {
+    "ts-node": "7.0.1",
+    "typescript": "3.2.2"
   }
 }
