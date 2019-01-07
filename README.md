@@ -55,3 +55,5 @@ Commands:
     examples                        Show command examples
 
 Tip: To be able to connect remotely, run: `DEBUG=*,-serialport:* talkToAnalyzer com -b 1800 -p /dev/ttyUSB1 -l 0.0.0.0:9876`
+
+![Run shell](./talk-to-analyzer.gif?raw=true 'Run shell')
