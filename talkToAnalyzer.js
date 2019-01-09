@@ -28,6 +28,7 @@ program
     'HOST:PORT is the zeromq address used by ZMQ dispatcher'
   )
   .option('-x, --exit-on-error', 'exit when error occurs', false)
+  .option('-d, --debug-enabled', 'output debug messages to the console', false)
   .action(options => {
     const { portName } = options;
     const logErrorAndExit = makeLogErrorAndMayExit(options.exitOnError);
