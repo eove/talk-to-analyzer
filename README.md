@@ -32,12 +32,10 @@ npm install -g
 
 **✋ Read this first!**
 
-- To display debug, prepend your command with `DEBUG=*,-serialport:*` (see: [debug](https://github.com/visionmedia/debug) documentation for more debug filtering explanations)
-- You will need to pass a portName with the `--portName` option in the following examples.
+Just run: `talkToAnalyzer com -p /dev/tty.usbserial-FTZ8FGPX -d`
 
-**Display all decoded frames**
-
-`DEBUG=*,-serialport:* talkToAnalyzer com -p /dev/tty.usbserial-FTZ8FGPX`
+- To display debug messages, use the `-d` option
+- You will need to pass a port name with the `-p` option.
 
 ## Shell
 
@@ -54,6 +52,6 @@ Commands:
     run [command] [args]            Run the given [command], with optional JSON formatted [args] (see. examples)
     examples                        Show command examples
 
-Tip: To be able to connect remotely, run: `DEBUG=*,-serialport:* talkToAnalyzer com -b 1800 -p /dev/ttyUSB1 -l 0.0.0.0:9876`
+Tip: To be able to connect remotely, run: `talkToAnalyzer com -p /dev/ttyUSB1 -l 0.0.0.0:9876`
 
 ![Run shell](./talk-to-analyzer.gif?raw=true 'Run shell')
