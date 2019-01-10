@@ -29,6 +29,11 @@ program
   )
   .option('-x, --exit-on-error', 'exit when error occurs', false)
   .option('-d, --debug-enabled', 'output debug messages to the console', false)
+  .option(
+    '-t, --transport-debug-enabled',
+    'output low level debug messages to the console',
+    false
+  )
   .action(options => {
     const { portName } = options;
     const logErrorAndExit = makeLogErrorAndMayExit(options.exitOnError);
