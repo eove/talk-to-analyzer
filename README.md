@@ -39,7 +39,7 @@ Just run: `talkToAnalyzer com -p /dev/tty.usbserial-FTZ8FGPX -d`
 
 ## Shell
 
-You can interact with the running `talkToAnalyzer` process to make it send commands.
+You can interact with the running `talkToAnalyzer com` process to make it send commands.
 
 Start the interactive shell in another terminal with: `talkToAnalyzer shell` while `talkToAnalyzer com ...` is running.
 

@@ -15,16 +15,18 @@
   "keywords": [
     "analyzer",
     "pf300",
-    "citrex"
+    "citrex",
+    "cli",
+    "h4"
   ],
-  "author": "Peio ROTH",
+  "author": "Peio ROTH <pierreroth64@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eove/talk-to-analyzer/issues"
   },
   "homepage": "https://github.com/eove/talk-to-analyzer#readme",
   "dependencies": {
-    "@eove/flow-analyzer-com": "0.1.11",
+    "@eove/flow-analyzer-com": "0.2.0",
     "commander": "2.19.0",
     "cross-env": "5.2.0",
     "debug": "4.1.1",
