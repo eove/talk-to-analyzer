@@ -59,6 +59,14 @@ program
   });
 
 program
+  .command('list-ports')
+  .description('list avaiable ports')
+  .action(() => {
+    const communicator = createCommunicator();
+    communicator.listPorts().then(console.log);
+  });
+
+program
   .command('shell')
   .description('run interactive shell to talk to com')
   .option(

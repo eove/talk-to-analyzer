@@ -32,7 +32,14 @@ npm install -g
 
 **✋ Read this first!**
 
-Just run: `talkToAnalyzer com -p /dev/tty.usbserial-FTZ8FGPX -d`
+To know which USB ports are available on your machine: `talkToAnalyzer list-ports`. May return:
+
+```bash
+[ { name: '/dev/tty.Bluetooth-Incoming-Port' },
+  { name: '/dev/tty.usbserial-FTZ8FGPX' } ]
+```
+
+Then, just run for example: `talkToAnalyzer com -p /dev/tty.usbserial-FTZ8FGPX -d`
 
 - To display debug messages, use the `-d` option
 - You will need to pass a port name with the `-p` option.
