@@ -63,7 +63,9 @@ program
   .description('list avaiable ports')
   .action(() => {
     const communicator = createCommunicator();
-    communicator.listPorts().then(console.log);
+    communicator.listPorts().then(ports => {
+      ports.map(p => console.log(p.name));
+    });
   });
 
 program

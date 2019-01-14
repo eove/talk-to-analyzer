@@ -32,11 +32,11 @@ npm install -g
 
 **✋ Read this first!**
 
-To know which USB ports are available on your machine: `talkToAnalyzer list-ports`. May return:
+To know which USB ports are available on your machine: `talkToAnalyzer list-ports`. May return something like:
 
 ```bash
-[ { name: '/dev/tty.Bluetooth-Incoming-Port' },
-  { name: '/dev/tty.usbserial-FTZ8FGPX' } ]
+/dev/tty.Bluetooth-Incoming-Port
+/dev/tty.usbserial-FTZ8FGPX
 ```
 
 Then, just run for example: `talkToAnalyzer com -p /dev/tty.usbserial-FTZ8FGPX -d`
