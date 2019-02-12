@@ -38,7 +38,9 @@ program
     const { portName } = options;
     const logErrorAndExit = makeLogErrorAndMayExit(options.exitOnError);
     try {
+      debug.enabled = options.debugEnabled;
       const communicator = createCommunicator(options);
+      communicator.event$.subscribe(event => debug('event:', event));
       const server = createShellServer(
         {
           communicator,
