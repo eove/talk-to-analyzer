@@ -1,6 +1,6 @@
 {
   "name": "@eove/talk-to-analyzer",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "CLI to talk to flow analyzers (pf300, citrex)",
   "main": "index.js",
   "scripts": {
