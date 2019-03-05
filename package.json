@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/eove/talk-to-analyzer#readme",
   "dependencies": {
-    "@eove/flow-analyzer-com": "0.2.10",
+    "@eove/flow-analyzer-com": "0.2.12",
     "commander": "2.19.0",
     "cross-env": "5.2.0",
     "debug": "4.1.1",
@@ -38,6 +38,6 @@
   "devDependencies": {
     "npm-run-all": "4.1.5",
     "ts-node": "8.0.2",
-    "typescript": "3.3.3"
+    "typescript": "3.3.3333"
   }
 }
