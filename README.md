@@ -1,4 +1,7 @@
-# talkToAnalyzer [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![npm version](https://badge.fury.io/js/%40eove%2Ftalk-to-analyzer.svg)](https://badge.fury.io/js/%40eove%2Ftalk-to-analyzer) [![install size](https://packagephobia.now.sh/badge?p=@eove/talk-to-analyzer)](https://packagephobia.now.sh/result?p=@eove/talk-to-analyzer)
+# talkToAnalyzer 
+[![Node Version](https://img.shields.io/badge/node-%3E=8.11.2-brightgreen.svg)]()
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![npm version](https://badge.fury.io/js/%40eove%2Ftalk-to-analyzer.svg)](https://badge.fury.io/js/%40eove%2Ftalk-to-analyzer) [![install size](https://packagephobia.now.sh/badge?p=@eove/talk-to-analyzer)](https://packagephobia.now.sh/result?p=@eove/talk-to-analyzer)
 
 CLI to talk to flow analyzers (pf300, citrex, ...)
 
